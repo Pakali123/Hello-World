@@ -1,0 +1,40 @@
+
+Usecase 2.0:-User Landing page
+
+Users:
+-Authenticated Users
+
+Description:
+-A vertical drawer will be displayed with the Approvals and raise ticket tabs.
+-A grid will be displayed at the center of the screen with the attributes as type of leave,balance leaves,Total leaves,status and leaves taken.
+-The select option enables the selected type of leave.
+-An apply button will be displayed at the bottom right of the grid.
+-A label will be displayed at the top right corner displaying the balance leaves.
+-On clicking the apply button goto usecase 2.1
+-On clicking the approvals tab goto usecase 2.2
+
+
+Usecase 2.1:-Apply popup
+
+Users:
+-Authenticated Users
+
+Description:
+-A popup will be displayed on the screen asking for the leave details.
+-The leave type and status will be displayed on the top right corner of the page.
+-The details will be displayed in a grid format as Fromdate,Todate,Reason.
+-Send and cancel buttons will be displayed at the right side of the grid.
+-On clicking the send button the request will be sent to the immediate supervisor for approval.
+
+
+Usecase 2.2:- Approvals
+
+Users:
+-Authenticated Users
+
+Description:
+-A vertical drawer will be displayed on the top right corner with the tabs pending leaves and approved leaves and view all.
+-On clicking the resolved tab it will display the resolved requests.
+-On clicking the pending tab it will display the pending requests and a button to forward the request to the concerned person.
+-On clicking the view all tab it will display the resolved as well as the pending requests.
+-Edit and cancel tabs will be displayed at the end of each request in the grid.
